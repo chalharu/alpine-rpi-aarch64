@@ -26,7 +26,7 @@ mkdir -p "${TRAVIS_BUILD_DIR}/broadcom-wl"
 
 tar zxfpC "${CACHEDIR}/pi-firmware.tar.gz" "${TRAVIS_BUILD_DIR}/pi-firmware"
 tar zxfpC "${CACHEDIR}/linux-firmware.tar.gz" "${TRAVIS_BUILD_DIR}/linux-firmware"
-tar zxfpC "${CACHEDIR}/alpine-uboot-3.8.0-aarch64.tar.gz" "${TRAVIS_BUILD_DIR}/alpine"
+tar zxfpC "${CACHEDIR}/alpine-uboot-3.9.4-aarch64.tar.gz" "${TRAVIS_BUILD_DIR}/alpine"
 tar jxfpC "${CACHEDIR}/broadcom-wl-4.150.10.5.tar.bz2" "${TRAVIS_BUILD_DIR}/broadcom-wl" --strip=1
 
 trap teardown EXIT
