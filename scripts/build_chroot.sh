@@ -47,7 +47,7 @@ cp -R $BUILDDIR/modloop/lib/firmware/brcm $OUTDIR/all/firmware
 cp -R $BUILDDIR/modloop/lib/firmware/b43 $OUTDIR/all/firmware
 cp $BUILDDIR/scripts/config.txt $OUTDIR/all/
 cp $BUILDDIR/scripts/cmdline.txt $OUTDIR/all/
-cd $OUTDIR/all && tar Jcf "$OUTDIR/alpine-rpi-3.9.4-aarch64-$KERNELVERSION.tar.xz" .
+cd $OUTDIR/all && tar Jcf "$OUTDIR/alpine-rpi-3.10.0-aarch64-$KERNELVERSION.tar.xz" .
 
 rm -rf $BUILDDIR/initramfs-rpi3
 rm -rf $BUILDDIR/modloop-rpi3

@@ -51,5 +51,5 @@ fetch_git pi-firmware https://github.com/raspberrypi/firmware.git
 fetch_git linux-firmware https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
 fetch_git kernel https://github.com/raspberrypi/linux.git rpi-4.19.y
 
-fetch_file alpine-uboot-3.9.4-aarch64.tar.gz http://dl-cdn.alpinelinux.org/alpine/v3.9/releases/aarch64/alpine-uboot-3.9.4-aarch64.tar.gz
+fetch_file alpine-uboot-3.10.0-aarch64.tar.gz http://dl-cdn.alpinelinux.org/alpine/v3.10/releases/aarch64/alpine-uboot-3.10.0-aarch64.tar.gz
 fetch_file broadcom-wl-4.150.10.5.tar.bz2 http://mirror2.openwrt.org/sources/broadcom-wl-4.150.10.5.tar.bz2
